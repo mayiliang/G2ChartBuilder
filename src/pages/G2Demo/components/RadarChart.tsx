@@ -25,7 +25,7 @@ const RadarChart = (props: IProps) => {
         newChart.destroy();
       }
     };
-  }, [chart, data, renderChart]);
+  }, [data]);
 
   const getData = (data: any[]) => {
     const dv = new DataView().source(data);

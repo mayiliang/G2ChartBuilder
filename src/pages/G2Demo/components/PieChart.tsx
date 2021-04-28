@@ -22,7 +22,7 @@ const PieChart = (props: IProps) => {
         newChart.destroy();
       }
     };
-  }, [chart, data, renderChart]);
+  }, [data]);
 
   const renderChart = () => {
     if (ref.current) {
